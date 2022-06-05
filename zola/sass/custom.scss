@@ -23,3 +23,66 @@
 	overflow: hidden;
 	transition: height 0.5s ease-out;
 }
+
+// Background Color
+body.dark, body.dark>div.home div.home-background, body.dark footer, body.dark .navbar {
+    background: #111;
+}
+
+
+// Custom Font Addition
+
+@font-face {
+    font-family: 'Recoleta Alt';
+    src: url('/fonts/RecoletaAlt-Medium.woff2') format('woff2'),
+        url('RecoletaAlt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url('/fonts/Recoleta-Regular.woff2') format('woff2'),
+        url('/fonts/Recoleta-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url('/fonts/Recoleta-SemiBold.woff2') format('woff2'),
+        url('/fonts/Recoleta-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url('/fonts/Recoleta-Light.woff2') format('woff2'),
+        url('/fonts/Recoleta-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Recoleta Alt';
+    src: url('/fonts/RecoletaAlt-Bold.woff2') format('woff2'),
+        url('/fonts/RecoletaAlt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url('/fonts/Recoleta-Thin.woff2') format('woff2'),
+        url('/fonts/Recoleta-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
