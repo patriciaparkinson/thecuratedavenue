@@ -6,11 +6,11 @@ publish = "public"
 # (Optional) Text in landing page button
 LANDING_BUTTON = "View full repository"
 # (Optional) Site description on landing page
-LANDING_DESCRIPTION = "Patricia Parkinson's curated public notes"
+LANDING_DESCRIPTION = "A public notebook curated by Patricia Parkinson"
 # (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
 LANDING_PAGE = "start"
 # (Optional) Site title on landing page
-LANDING_TITLE = "Let curiosity be your guide"
+LANDING_TITLE = "A digital garden of notes, finds & explorations"
 PYTHON_VERSION = "3.8"
 # (REQUIRED) Site repo URL
 REPO_URL = "https://github.com/patriciaparkinson/thecuratedavenue"
