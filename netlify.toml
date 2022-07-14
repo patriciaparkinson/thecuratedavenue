@@ -4,13 +4,13 @@ publish = "public"
 
 [build.environment]
 # (Optional) Text in landing page button
-LANDING_BUTTON = "View full repository"
+LANDING_BUTTON = "Click to steal some👆"
 # (Optional) Site description on landing page
-LANDING_DESCRIPTION = "Patricia Parkinson's curated public notebook"
+LANDING_DESCRIPTION = "Patricia Parkinson's curated public notes"
 # (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
 LANDING_PAGE = "start"
 # (Optional) Site title on landing page
-LANDING_TITLE = "The Curated Avenue"
+LANDING_TITLE = "Let curiosity be your guide"
 PYTHON_VERSION = "3.8"
 # (REQUIRED) Site repo URL
 REPO_URL = "https://github.com/patriciaparkinson/thecuratedavenue"
